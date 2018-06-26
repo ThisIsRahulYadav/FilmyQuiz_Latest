@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/help_popup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="60dp"
+    android:background="#1F73CE">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#601F73CE"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:gravity="center"
+            android:text="HELP"
+            android:textColor="#fff"
+            android:textSize="45dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:text="About Game:-"
+                android:textColor="#f9e803"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="This Game contains three different categories in each LEVEL.  "
+                android:textColor="#f9e803"
+                android:textSize="15dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:text="1.Picture Category"
+                android:textColor="#f9e803"
+                android:textSize="20dp" />
+
+            <WebView
+                android:id="@+id/pic_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="In this category, you will get the picture of the most popular movie scene and related question to that movie. You get four different options to answer from which you have to select correct answer for that question. For correct answer, you will get 10 points and 10 points will be deducted if the selected answer is not correct."
+                android:textColor="#f9e803"
+                android:textSize="15dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:text="2. Quote Category"
+                android:textColor="#f9e803"
+                android:textSize="20dp" />
+
+            <WebView
+                android:id="@+id/quote_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="In this category, you will get the famous quote of the Actor/Actress from the movie and related question to that movie. You will get four different options to answer from which you have to select correct answer for that question. For correct answer, you will get 10 points and 10 points will be deducted if the selected answer is not correct."
+                android:textColor="#f9e803"
+                android:textSize="15dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginRight="10dp"
+                android:text="3. Emoji Category"
+                android:textColor="#f9e803"
+                android:textSize="20dp" />
+
+            <WebView
+                android:id="@+id/emoji_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="In this category, you will get the different Emojis. From these emojis you have to identify correct movie name and you have to type all the characters which comes in that movie name one by one from the keyboard given below. For this you will get 30 points for each correct answer and 10 points will be deducted for each wrong answer"
+                android:textColor="#f9e803"
+                android:textSize="15dp" />
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/helpCross"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/cross" />
+
+
+</RelativeLayout>

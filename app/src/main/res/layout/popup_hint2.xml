@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/popup_hint_2"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+    <!--android:background="#70dc2518"-->
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:text="would you like to hide two wrong option Deduct 30 coins!"
+        android:textSize="18dp"
+        android:background="#ffffff"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal">
+        <Button
+            android:id="@+id/hint_2_Yes"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="YES"
+            android:background="#FB52A4E2"/>
+
+        <Button
+            android:id="@+id/hint_2_Cancel"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:text="CANCEL"
+            android:background="#FB52A4E2"/>
+    </LinearLayout>
+</LinearLayout>

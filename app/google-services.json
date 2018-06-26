@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "182836646820",
+    "firebase_url": "https://kids-suduko.firebaseio.com",
+    "project_id": "kids-suduko",
+    "storage_bucket": "kids-suduko.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182836646820:android:eaf29735092da905",
+        "android_client_info": {
+          "package_name": "com.goodwilltechs.kidssuduko"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182836646820-2p3hig7mb6pk5q4duna9kjokpua2i8jn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBx9qSeUcXAScyaK8n5MJMJ2TvaoJfpO1c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182836646820:android:73b346307e16b9d5",
+        "android_client_info": {
+          "package_name": "com.goodwill.filmyquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182836646820-2p3hig7mb6pk5q4duna9kjokpua2i8jn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBx9qSeUcXAScyaK8n5MJMJ2TvaoJfpO1c"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

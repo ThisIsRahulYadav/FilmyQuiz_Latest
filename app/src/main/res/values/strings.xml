@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Filmy Quiz</string>
+    <string name="title_activity_mainscreen2">mainscreen2</string>
+
+    <string name="currentLevel">currentLevel</string>
+    <string name="star">star</string>
+    <string name="coin">coin</string>
+    <string name="pic">pic</string>
+    <string name="dialouge">dialouge</string>
+    <string name="emoji">emoji</string>
+    <string name="value_of_n">value_of_n</string>
+    <string name="clicked">clicked </string>
+    <string name="clicked1">clicked1 </string>
+    <string name="sound">sound</string>
+    <string name="music">music</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/popup_hint_2_Emoji_Screen"
+    android:orientation="vertical"
+    android:gravity="center_vertical">
+    <!--android:background="#70dc2518"-->
+
+    <Button
+        android:layout_width="220dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:text="THIS WILL SHOW YOU ALL THE CHARACTERS USED IN MOVIE NAME    Deduct 20 coins!"
+        android:textSize="18dp"
+        android:background="#ffffff"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal">
+        <Button
+            android:id="@+id/hint_2_Yes_Emoji_Screen"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:text="YES"
+            android:background="#FB52A4E2"/>
+
+        <Button
+            android:id="@+id/hint_2_Cancel_Emoji_Screen"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:text="CANCEL"
+            android:background="#FB52A4E2"/>
+    </LinearLayout>
+</LinearLayout>
